@@ -52,5 +52,3 @@ function createMarkers() {
         })
 }
 createMarkers()
-/*     drawMarker(20, new alt.Vector3(1364.36669921875, -604.4774169921875, 74.487548828125), new alt.Vector3(0, 0, 0), new alt.Vector3(0, 0, 0), new alt.Vector3(1, 1, 1), 50, 205, 50, 100);
-    drawMarker(36, new alt.Vector3(1356.50634765625, -585.0873413085938, 74.49462890625), new alt.Vector3(0, 0, 0), new alt.Vector3(0, 0, 0), new alt.Vector3(1, 1, 1), 50, 205, 50, 100); */
