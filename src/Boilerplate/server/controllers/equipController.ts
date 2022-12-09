@@ -27,6 +27,6 @@ function equipPlayer(colshape: alt.Colshape, player: alt.Player) {
     // ADD RIFLEHASH TINT
     player.setWeaponTintIndex(weaponService.RifleHash, 2);
     // NOTIFY
-    alt.emitClient(player, 'drawNotification', 'CHAR_LAMAR', 'Equipment', 'EquippedModelHash succesfully!', '');
+    alt.emitClient(player, 'drawNotification', 'CHAR_LAMAR', 'Equipment', 'Equipped succesfully!', '');
 }
 alt.on('entityEnterColshape', equipPlayer);
